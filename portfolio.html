@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./scc/reset.css" />
-    <link rel="stylesheet" href="./scc/styles.css" />
+    <!-- <link rel="stylesheet" href="./scc/reset.css" /> -->
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -312,6 +312,22 @@
               </li>
             </ul>
           </div>
+          <form class="form-email">
+            <h3 class="form-text">Подпишитесь на рассылку</h3>
+            <label class="form-email-label" for="email"></label>
+            <input
+              class="form-email-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="form-send-btn" type="submit">
+              Подписаться
+              <svg class="form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </section>
     </footer>

@@ -1,0 +1,140 @@
+.header {
+  padding: 24px 0 25px 0;
+  border-bottom: 1px solid #ececec;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-logo {
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  align-items: center;
+  margin-right: 93px;
+}
+
+.header-pre-logo {
+  color: var(--btn-link-hover-color);
+}
+
+.header-after-logo {
+  color: #000000;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.header-text {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--btn-link-hover-color);
+  }
+  &::after {
+    content: "";
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+    margin-top: 28px;
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:hover:after,
+  &:focus:after {
+    opacity: 1;
+  }
+}
+
+.studio,
+.studio::after,
+.portfolio-activ,
+.portfolio-activ::after {
+  color: var(--btn-link-hover-color);
+  opacity: 1;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mine-text-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-mail {
+  margin-right: 30px;
+  &:hover,
+  &:focus {
+    color: var(--btn-link-hover-color);
+  }
+}
+
+.header-tel {
+  margin-left: auto;
+  &:hover,
+  &:focus {
+    color: var(--btn-link-hover-color);
+  }
+}
+
+.header-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.header-logo-pf {
+  margin-right: 95px;
+}
+
+.header-logo-pf {
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-pre-logo-pf {
+  color: var(--btn-link-hover-color);
+}
+
+.header-after-logo-pf {
+  color: #000000;
+}
