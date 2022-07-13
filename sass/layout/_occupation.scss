@@ -7,13 +7,13 @@
   display: flex;
   margin: -15px;
 }
-.occupation-box {
+.occupation-list__item {
   margin: 15px;
   position: relative;
   width: 370px;
 }
 
-.occupation-thumb {
+.occupation-list__thumb {
   display: flex;
   position: absolute;
   width: 100%;
@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.occupation-text-thumb {
+.occupation-list__text {
   display: block;
   font-weight: 700;
   font-size: 14px;

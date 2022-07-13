@@ -3,17 +3,17 @@
   margin: 0 auto;
 }
 
-.feature-list {
+.feature__list {
   display: flex;
   margin: -15px;
 }
 
-.feature-icon {
+.feature__icon {
   display: flex;
   text-align: center;
 }
 
-.feature-link {
+.feature__link {
   display: flex;
   width: 270px;
   text-align: center;
@@ -24,24 +24,24 @@
   margin-bottom: 30px;
 }
 
-.feature-item {
+.feature__item {
   width: calc(100% / 4 - 30px);
   margin: 15px;
 }
 
-.feature-title {
+.feature__title {
   width: 270px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  .feature-title + .feature-title {
+  .feature__title + .feature__title {
     width: 270px;
   }
 }
 
-.feature-text {
+.feature__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;

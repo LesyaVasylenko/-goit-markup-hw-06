@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.client-title {
+.client__title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -12,17 +12,17 @@
   margin-bottom: 50px;
 }
 
-.client-list {
+.client__list {
   display: flex;
   margin: -15px;
 }
 
-.client-item {
+.client__item {
   width: calc(100% / 6 - 30px);
   margin: 15px;
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,6 @@
   }
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
