@@ -1,4 +1,6 @@
 @import "./utils/vars";
+@import "./utils/mixins";
+
 @import "./base/reset";
 @import "./base/common";
 
@@ -8,8 +10,8 @@
 @import "./components/btn";
 @import "./components/container-btn";
 @import "./components/title";
-@import "./components/title__btn";
-@import "./components/title__text";
+@import "./components/title-btn";
+@import "./components/title-text";
 
 @import "./layout/header";
 @import "./layout/feature";

@@ -17,11 +17,11 @@
   letter-spacing: 0.03em;
 }
 
-.logo__pre-text {
+.logo__pre-title {
   color: var(--btn-link-hover-color);
 }
 
-.after-text--color-light {
+.after-title--color-light {
   color: var(--text-teambox-btnhover-color);
 }
 .address__link.address {
@@ -49,11 +49,11 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-social {
+.footer-soc {
   max-width: 206px;
 }
 
-.footer-soc-title {
+.footer-soc__title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -63,12 +63,12 @@
   color: var(--text-teambox-btnhover-color);
 }
 
-.footer-soc-list {
+.footer-soc__list {
   display: flex;
   margin-top: 20px;
 }
 
-.footer-soc-item {
+.footer-soc__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -77,7 +77,7 @@
   }
 }
 
-.footer-soc-link {
+.footer-soc__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,13 +86,13 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transitions(background-color);
   &:hover,
   &:focus {
     background-color: #2196f3;
   }
 }
 
-.footer-soc-icon {
+.footer-soc__icon {
   fill: var(--text-teambox-btnhover-color);
 }
